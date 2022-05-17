@@ -1,0 +1,124 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+:root{
+    --bg: linear-gradient(134deg,#00C896, #00AF9C);
+    --ascent: #009498;
+    --swt-icn-bg:#3b3939e6;
+    --swt-icn-clr:#00C896;
+
+}
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #94919147;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--bg);
+}
+
+.container{
+    box-shadow: 2px 2px 15px 2px rgb(0 0 0 / 20%), 2px 2px 15px 2px rgb(0 0 0 / 20%);
+    max-width: 430px;
+    height: 500px;
+    padding:20px 10px 10px;
+    background: #fff;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+.container .sub-container{
+    border-radius: 5px;
+    width:100%;
+    padding: 25px 10px 5px;
+}
+
+.container .sub-container header {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px 5px;
+}
+.container .sub-container header h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+form{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px 0px 10px;
+}
+form label{
+    color: #383737;
+}
+form> textarea{
+    margin: 10px 0px 20px;
+}
+form> textarea,select,option{
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid #949191 ;
+    color: #797272;
+    outline: none;
+    resize: none;
+    padding: 10px 10px;
+    margin: 10px 0px 0px;
+    overflow: hidden;
+}
+form >input{
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    border:none;
+    background: var(--ascent);
+    padding: 20px 10px;
+    color: #fff;
+    text-align: center;
+    outline: none;
+    box-shadow: 2px 2px 8px 2px rgb(0 0 0 / 20%);
+    margin: 45px 0px 0px;
+}
+
+/*
+ Switcher___
+ */
+ #switcher{
+    float: right;
+    padding: 5px 8px;
+    cursor: pointer;
+    background: #00C896;
+    width: 100px;
+    border-radius: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #switcher>i{
+    padding: 5px 10px;
+    transition: all .1s ease-in-out;
+}
+#switcher>i.fa-volume-high{
+    border-radius: 50px 00% 00% 50px / 50px 00% 00% 50px;
+    background: var(--swt-icn-bg);
+     color: var(--swt-icn-clr);
+ }
+ #switcher>i.fa-microphone{
+    border-radius: 00% 50px 50px 00% / 00% 50px 50px 00% ;
+    /* background: #3b3939e6;
+     color: #00C896; */
+ }
+ 

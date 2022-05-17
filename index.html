@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Speech Converter</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css"/>
+   
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <span style="float: right; cursor: pointer;" id="switcher">
+            <i class="fa-solid fa-volume-high"></i>
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+        </span>
+        
+        <div class="sub-container">
+            <header>
+                <h1>Text To Speech</h1>
+            </header>
+
+            <form action="#">
+                <label for="" id="txt_Display">Enter Text</label>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+                
+                <label for="" class="slt_lng">Select Voice</label>
+                <select>
+                </select>
+
+                <input type="button" value="Convert To Speech"/>
+            </form>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
