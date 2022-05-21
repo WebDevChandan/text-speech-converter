@@ -1,6 +1,8 @@
 # Text to Speech & Speech to Text converter
 
-![Text-To-Speech-Converter by WebDevChandan](https://user-images.githubusercontent.com/70449580/169097764-aa71438b-af07-45cc-95ab-e161c2712277.png)
+
+
+![Text-To-Speech-Converter by WebDevChandan](https://user-images.githubusercontent.com/70449580/169655111-1dde81aa-d463-4e2a-aa23-8d6490223070.gif)
 
 
 Turn your Text to Speech & Speech to Text with **20+ in-built Device Languages** which uses [_Web Speech API_](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) and their respective Interfaces. 
